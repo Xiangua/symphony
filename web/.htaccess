@@ -6,6 +6,7 @@
 DirectoryIndex app.php
 
 <IfModule mod_rewrite.c>
+    Option +followSymlinks
     RewriteEngine On
 
     # Determine the RewriteBase automatically and set it as environment variable.
